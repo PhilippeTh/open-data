@@ -6,11 +6,13 @@ dependencies:
   - python
   - numpy
   - python=3.9
+  - adjustText
   - cartopy
   - gdal
   - ipyleaflet
   - ipywidgets
   - matplotlib
+  - metpy
   - numpy
   - owslib
   - pandas
@@ -19,7 +21,9 @@ dependencies:
   - tabulate
   - pip
   - pip:
+    - adjustText
     - matplotlib
+    - metpy
     - owslib
     - pandas
     - Pillow
