@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set environment variables
-DISPLAY=Host_IP_Address:0.0 $ export DISPLAY
+export DISPLAY=$Host_IP_Address:0.0
 
 # execute run commands
 # ...
