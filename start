@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# set environment variables
-export DISPLAY=$Host_IP_Address:0.0
-
-# execute run commands
-# ...
-
-exec "$@"
